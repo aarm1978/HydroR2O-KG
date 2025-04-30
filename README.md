@@ -66,7 +66,22 @@ NEO4J_DB=hydrologykg
 
 ## 📎 Citation
 
-If you use or extend this project for research purposes, please cite the original paper by Miao et al. (2024) and this repository accordingly.
+If you use or extend this project, please cite:
+
+**HydroR2O-KG: Hydrological Research-to-Operations Knowledge Graph**  
+Andrés Ramírez Molina and Saide Zand  
+GitHub repository: [https://github.com/aarm1978/HydroR2O-KG](https://github.com/aarm1978/HydroR2O-KG)
+
+BibTeX:
+
+```bibtex
+@misc{ramirez2024hydror2okg,
+  author       = {Andrés Ramírez Molina and Saide Zand},
+  title        = {HydroR2O-KG: Hydrological Research-to-Operations Knowledge Graph},
+  year         = {2024},
+  url          = {https://github.com/aarm1978/HydroR2O-KG},
+  note         = {GitHub repository}
+}
 
 ## 📫 Contact
 
