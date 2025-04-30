@@ -82,6 +82,7 @@ BibTeX:
   url          = {https://github.com/aarm1978/HydroR2O-KG},
   note         = {GitHub repository}
 }
+```
 
 ## 📫 Contact
 
