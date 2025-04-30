@@ -1,0 +1,283 @@
+{
+    "Academic Paper": [
+        "Metadata",
+        "Title"
+    ],
+    "Author": [
+        "Metadata",
+        "Author"
+    ],
+    "Journal": [
+        "Metadata",
+        "Journal"
+    ],
+    "Year of Publication": [
+        "Metadata",
+        "Year"
+    ],
+    "DOI": [
+        "Metadata",
+        "DOI"
+    ],
+    "Keywords": [
+        "Metadata",
+        "Keywords"
+    ],
+    "Affiliations": [
+        "Metadata",
+        "Author_Affiliations"
+    ],
+    "Research Problem": [
+        "Research Problem",
+        "Previous Research Gaps",
+        "Uncertainty & Limitations"
+    ],
+    "Research Topic": [
+        "Research Problem",
+        "Research Topic"
+    ],
+    "Study Area": [
+        "Metadata",
+        "Study Area",
+        "Spatial & Temporal Resolution",
+        "Figures & Tables"
+    ],
+    "Scientific Relevance": [
+        "Scientific & Operational Relevance",
+        "Key Findings"
+    ],
+    "Operational Relevance": [
+        "Scientific & Operational Relevance",
+        "Key Findings"
+    ],
+    "Previous Research Gaps": [
+        "Research Problem",
+        "Previous Research Gaps",
+        "Comparison with Previous Studies"
+    ],
+    "Existing Research": [
+        "Scientific & Operational Relevance",
+        "Previous Research Gaps",
+        "Comparison with Previous Studies"
+    ],
+    "Subsidence Mechanisms": [
+        "Research Problem",
+        "Key Hydrological Variables",
+        "Key Findings",
+        "Uncertainty & Limitations"
+    ],
+    "Main Hypothesis": [
+        "Main Hypothesis",
+        "Validation & Calibration",
+        "Key Findings"
+    ],
+    "Research Questions": [
+        "Research Questions",
+        "Modeling & Analytical Methods",
+        "Key Findings"
+    ],
+    "Expected Contribution": [
+        "Research Problem",
+        "Scientific & Operational Relevance",
+        "Key Findings"
+    ],
+    "Dataset Sources": [
+        "Dataset Sources",
+        "Modeling & Analytical Methods",
+        "Validation & Calibration"
+    ],
+    "Key Hydrological Variables": [
+        "Key Hydrological Variables",
+        "Modeling & Analytical Methods",
+        "Key Findings",
+        "Identified Patterns"
+    ],
+    "Spatial & Temporal Resolution": [
+        "Dataset Sources",
+        "Spatial & Temporal Resolution",
+        "Simulation Models & Computational Tools"
+    ],
+    "Validation Data": [
+        "Dataset Sources",
+        "Validation & Calibration",
+        "Figures & Tables"
+    ],
+    "Data Quality & Limitations": [
+        "Validation & Calibration",
+        "Uncertainty & Limitations"
+    ],
+    "Method description": [
+        "Simulation Models & Computational Tools",
+        "Modeling & Analytical Methods"
+    ],
+    "Method selection": [
+        "Previous Research Gaps",
+        "Modeling & Analytical Methods",
+        "Comparison with Previous Studies"
+    ],
+    "Method advantage": [
+        "Modeling & Analytical Methods",
+        "Key Findings",
+        "Comparison with Previous Studies"
+    ],
+    "Study Approach": [
+        "Main Hypothesis",
+        "Modeling & Analytical Methods",
+        "Comparison with Previous Studies"
+    ],
+    "Simulation Models": [
+        "Simulation Models & Computational Tools",
+        "Validation & Calibration"
+    ],
+    "Experimental Setup": [
+        "Modeling & Analytical Methods",
+        "Validation & Calibration"
+    ],
+    "Computational Tools": [
+        "Simulation Models & Computational Tools",
+        "Modeling & Analytical Methods"
+    ],
+    "Statistical Methods": [
+        "Statistical Methods",
+        "Validation & Calibration",
+        "Key Findings"
+    ],
+    "Validation & Calibration": [
+        "Validation & Calibration",
+        "Uncertainty & Limitations",
+        "Figures & Tables"
+    ],
+    "Quantitative Findings": [
+        "Validation & Calibration",
+        "Key Findings",
+        "Figures & Tables"
+    ],
+    "Qualitative Findings": [
+        "Key Findings",
+        "Identified Patterns"
+    ],
+    "Identified Patterns": [
+        "Key Findings",
+        "Identified Patterns"
+    ],
+    "Comparison with Previous Studies": [
+        "Scientific & Operational Relevance",
+        "Key Findings",
+        "Comparison with Previous Studies"
+    ],
+    "Uncertainty & Limitations": [
+        "Scientific & Operational Relevance",
+        "Validation & Calibration",
+        "Uncertainty & Limitations"
+    ],
+    "Figures": [
+        "Key Findings",
+        "Identified Patterns",
+        "Figures & Tables"
+    ],
+    "Tables": [
+        "Validation & Calibration",
+        "Key Findings",
+        "Figures & Tables"
+    ],
+    "Region of Study": [
+        "Scientific & Operational Relevance"
+    ],
+    "Climatic & Geological Features": [
+        "Scientific & Operational Relevance",
+        "Key Hydrological Variables",
+        "Uncertainty & Limitations"
+    ],
+    "Hydrological Theories": [
+        "Scientific & Operational Relevance",
+        "Comparison with Previous Studies"
+    ],
+    "Previous Models Referenced": [
+        "Simulation Models & Computational Tools",
+        "Modeling & Analytical Methods",
+        "Comparison with Previous Studies"
+    ],
+    "Interpretation of Results": [
+        "Key Findings",
+        "Identified Patterns"
+    ],
+    "Practical Applications": [
+        "Scientific & Operational Relevance"
+    ],
+    "Future Research Directions": [
+        "Previous Research Gaps",
+        "Uncertainty & Limitations"
+    ],
+    "Streamflow": [
+        "Key Hydrological Variables"
+    ],
+    "Evapotranspiration": [
+        "Key Hydrological Variables"
+    ],
+    "Groundwater Recharge": [
+        "Key Hydrological Variables"
+    ],
+    "Precipitation": [
+        "Key Hydrological Variables"
+    ],
+    "Soil Moisture": [
+        "Key Hydrological Variables"
+    ],
+    "Hydrological Processes": [
+        "Key Hydrological Variables",
+        "Modeling & Analytical Methods"
+    ],
+    "River": [
+        "Study Area"
+    ],
+    "Lake": [
+        "Study Area"
+    ],
+    "Reservoir": [
+        "Study Area"
+    ],
+    "Wetland": [
+        "Study Area"
+    ],
+    "Watershed": [
+        "Study Area"
+    ],
+    "Floodplain": [
+        "Study Area",
+        "Uncertainty & Limitations"
+    ],
+    "Water Quality": [
+        "Key Hydrological Variables",
+        "Key Findings",
+        "Uncertainty & Limitations"
+    ],
+    "Pollutants": [
+        "Key Hydrological Variables",
+        "Key Findings",
+        "Uncertainty & Limitations"
+    ],
+    "Sediment Transport": [
+        "Key Hydrological Variables",
+        "Key Findings"
+    ],
+    "Water Treatment Processes": [
+        "Scientific & Operational Relevance",
+        "Key Findings",
+        "Uncertainty & Limitations"
+    ],
+    "Eutrophication": [
+        "Key Hydrological Variables",
+        "Key Findings",
+        "Uncertainty & Limitations"
+    ],
+    "Model Uncertainty": [
+        "Validation & Calibration",
+        "Uncertainty & Limitations"
+    ],
+    "Performance Metric Type": [
+        "Validation & Calibration"
+    ],
+    "Calibration Techniques": [
+        "Validation & Calibration"
+    ]
+}

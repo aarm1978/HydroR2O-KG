@@ -1,0 +1,11 @@
+numpy
+openai
+ollama
+pandas
+python-dotenv
+neo4j
+requests
+sqlite3
+tabulate
+torch  # Required by MinerU (PyTorch backend)
+magic-pdf @ git+https://github.com/opendatalab/MinerU.git

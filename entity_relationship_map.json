@@ -1,0 +1,64 @@
+{
+    "solves": [
+      {"source": "Main Hypothesis", "target": "Research Problem"},
+      {"source": "Study Approach", "target": "Research Problem"},
+      {"source": "Method advantage", "target": "Research Problem"}
+    ],
+    "tested using": [
+      {"source": "Main Hypothesis", "target": "Method description"},
+      {"source": "Main Hypothesis", "target": "Experimental Setup"},
+      {"source": "Research Questions", "target": "Method description"},
+      {"source": "Research Questions", "target": "Simulation Models"}
+    ],
+    "validated by": [
+      {"source": "Method description", "target": "Validation Data"},
+      {"source": "Simulation Models", "target": "Validation & Calibration"},
+      {"source": "Simulation Models", "target": "Performance Metric Type"}
+    ],
+    "measured in": [
+      {"source": "Key Hydrological Variables", "target": "Dataset Sources"},
+      {"source": "Performance Metric Type", "target": "Dataset Sources"}
+    ],
+    "represented in": [
+      {"source": "Quantitative Findings", "target": "Figures & Tables"},
+      {"source": "Qualitative Findings", "target": "Figures & Tables"},
+      {"source": "Identified Patterns", "target": "Figures & Tables"}
+    ],
+    "addresses_gap": [
+      {"source": "Research Problem", "target": "Previous Research Gaps"},
+      {"source": "Main Hypothesis", "target": "Previous Research Gaps"},
+      {"source": "Expected Contribution", "target": "Previous Research Gaps"}
+    ],
+    "suggests": [
+      {"source": "Uncertainty & Limitations", "target": "Future Research Directions"},
+      {"source": "Quantitative Findings", "target": "Future Research Directions"},
+      {"source": "Qualitative Findings", "target": "Future Research Directions"},
+      {"source": "Identified Patterns", "target": "Future Research Directions"}
+    ],
+    "applies to": [
+      {"source": "Method description", "target": "Study Area"},
+      {"source": "Study Approach", "target": "Region of Study"},
+      {"source": "Practical Applications", "target": "Region of Study"}
+    ],
+    "influenced by": [
+      {"source": "Hydrological Processes", "target": "Climatic & Geological Features"},
+      {"source": "Hydrological Processes", "target": "Hydrological Theories"}
+    ],
+    "related to": [
+      {"source": "Method selection", "target": "Existing Research"},
+      {"source": "Method advantage", "target": "Previous Models Referenced"},
+      {"source": "Interpretation of Results", "target": "Comparison with Previous Studies"}
+    ],
+    "calibrated using": [
+      {"source": "Simulation Models", "target": "Calibration Techniques"}
+    ],
+    "analyzed using": [
+      {"source": "Quantitative Findings", "target": "Statistical Methods"},
+      {"source": "Qualitative Findings", "target": "Statistical Methods"}
+    ],
+    "assesses": [
+      {"source": "Study Approach", "target": "Research Questions"},
+      {"source": "Method description", "target": "Research Questions"}
+    ]
+  }
+  

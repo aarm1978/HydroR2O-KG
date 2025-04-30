@@ -1,0 +1,173 @@
+Ontology for Intra-Paper Knowledge Graphs (Intra-Paper KG) in Hydrology
+
+1. Introduction
+This ontology is designed to structure the internal knowledge representation of academic papers in hydrology and water sciences. The ontology enables the extraction and classification of key research components, facilitating knowledge discovery, research gap identification, and integration with an inter-paper knowledge graph. Additionally, it incorporates hydrological concepts, water bodies, and water quality elements, allowing for a more complete analysis of hydrological research.
+
+By structuring research findings and linking them to established hydrological and water quality concepts, this ontology enables the identification of knowledge gaps and potential research directions in specific regions or subfields of hydrology. 
+
+2. Ontology Structure
+The ontology consists of macro classes (high-level categories) and micro classes (granular subcategories) that define specific elements in hydrological research.
+
+2.1. Macro Classes and Micro Classes
+
+2.1.1. Publication Metadata
+•	Academic Paper – A scientific research article containing structured hydrological knowledge.
+•	Authors – The individuals who wrote the academic paper.
+•	Journal – The journal where the paper was published.
+•	Year of Publication – The year in which the paper was published.
+•	DOI – A unique identifier for the paper.
+•	Keywords – Keywords assigned to the paper.
+•	Affiliations – The institutions affiliated with the authors.
+
+2.1.2. Study Context
+•	Research Problem – The central issue the paper aims to solve.
+•	Research Topic – Broad category of study (e.g., flood modeling, drought prediction, water quality assessment).
+•	Study Area – Geographical focus (e.g., Galveston Bay, Texas).
+•	Scientific Relevance – Contribution to hydrological knowledge.
+•	Operational Relevance – Impact on decision-making, policies, or management.
+•	Previous Research Gaps – Identified gaps before this study.
+•	Existing Research – Overview of prior studies related to the topic, summarizing key findings and approaches that provide the foundation for the current study.
+•	Subsidence Mechanisms (if applicable) – Causes of land deformation (e.g., groundwater withdrawal, hydrocarbon extraction).
+
+2.1.3. Research Objectives & Questions
+•	Main Hypothesis – Central prediction or explanation tested.
+•	Research Questions – Explicit or inferred questions guiding the study.
+•	Expected Contribution – How the study advances knowledge.
+
+2.1.4. Data & Variables
+•	Dataset Sources – Observational, satellite, modeled, etc.
+•	Key Hydrological Variables – Rainfall intensity, streamflow, runoff coefficient, groundwater level.
+•	Spatial & Temporal Resolution – Daily, monthly, basin-level, station-level.
+•	Validation Data – GPS, extensometers, alternative datasets.
+•	Data Quality & Limitations – Uncertainty, measurement errors, coverage gaps.
+
+2.1.5. Methodology
+•	Method description – A detailed explanation of the methodology used in the study, including the processes, techniques, and tools employed.
+•	Method selection – Justification for choosing a specific method over alternatives, considering factors like relevance, accuracy, feasibility, and alignment with the research objectives.
+•	Method advantage – The benefits or strengths of the chosen method, highlighting aspects such as efficiency, precision, robustness, or novel contributions to the field.
+•	Study Approach – Experimental, modeling, systematic review, field survey.
+•	Simulation Models – SWAT, VIC, NWM, LSTM, ADCIRC.
+•	Experimental Setup – Design, field sites, monitoring period.
+•	Computational Tools – Python, R, Fortran, MATLAB.
+•	Statistical Methods – Regression, sensitivity analysis, Bayesian inference.
+•	Validation & Calibration – NSE, RMSE, statistical fit measures.
+
+2.1.6. Findings & Results
+•	Quantitative Findings – Specific numerical results.
+•	Qualitative Findings – General patterns and trends.
+•	Identified Patterns – Emerging trends in data.
+•	Comparison with Previous Studies – Agreements, contradictions, novel insights.
+•	Uncertainty & Limitations – Sources of error, constraints of the study.
+
+2.1.7. Figures & Tables
+•	Figures – Visual representations of key findings.
+•	Tables – Summarized datasets, comparisons, experimental results.
+
+2.1.8. Geographical Context
+•	Region of Study – Location of hydrological analysis.
+•	Climatic & Geological Features – Relevant environmental conditions.
+
+2.1.9. Theoretical Framework
+•	Hydrological Theories – Conceptual foundations of the study.
+•	Previous Models Referenced – Frameworks used in literature.
+
+2.1.10. Discussion & Implications
+•	Interpretation of Results – What findings mean in context.
+•	Practical Applications – Policy relevance, engineering impact.
+•	Future Research Directions – Suggested next steps in the field.
+
+2.1.11. Hydrological Concepts
+•	Streamflow – The volume of water moving through a river cross-section per unit time.
+•	Evapotranspiration – The sum of evaporation from soil and water surfaces and transpiration from plants.
+•	Groundwater Recharge – The process of water infiltration into an aquifer.
+•	Precipitation – Any form of water (rain, snow, hail) falling from the atmosphere.
+•	Soil Moisture – The amount of water held in soil pores, influencing infiltration and runoff.
+•	Hydrological Processes – Includes infiltration, percolation, runoff, baseflow, and water table fluctuations.
+
+2.1.12. Water Bodies & Hydrological Features
+•	River – A natural flowing watercourse.
+•	Lake – A large, enclosed body of freshwater or saltwater.
+•	Reservoir – An artificial or natural water storage system used for water supply, flood control, and hydropower.
+•	Wetland – A land area saturated with water, serving as a natural filter and habitat.
+•	Watershed – The land area that drains into a particular water body.
+•	Floodplain – An area of land adjacent to a river that experiences flooding during high flows.
+
+2.1.13. Water Quality & Contamination
+•	Water Quality – The chemical, physical, and biological properties of water affecting its suitability for use.
+•	Pollutants – Substances that degrade water quality, including heavy metals, organic contaminants, and nutrients.
+•	Sediment Transport – The movement of soil particles in water bodies, affecting turbidity and ecosystem health.
+•	Water Treatment Processes – Methods used to purify water, including filtration and chemical treatments.
+•	Eutrophication – The excessive enrichment of water bodies with nutrients, leading to algal blooms and oxygen depletion.
+
+2.1.14. Validation Metrics
+•	Model Uncertainty – A measure of uncertainty in model predictions due to data limitations or model structure.
+•	Performance Metric Type – The statistical or empirical method used to evaluate model accuracy.
+•	Calibration Techniques – Methods used to refine model parameters based on observed data.
+
+3. Relationships Between Classes
+
+The ontology defines explicit relationships between elements, representing how different research components are connected:
+
+1.	"solves" → (Scientific Hypothesis) solves (Research Problem)
+•	Example: "LID implementation reduces peak runoff in urban areas."
+
+2.	"measured in" → (Key Variable) measured in (Dataset)
+•	Example: "Rainfall intensity measured in USGS streamflow records."
+
+3.	"tested using" → (Hypothesis) tested using (Methodology)
+•	Example: "The impact of storm surge tested using ADCIRC model."
+
+4.	"influenced by" → (Findings) influenced by (Key Variable)
+•	Example: "Flood extent influenced by precipitation intensity."
+
+5.	"represented in" → (Findings) represented in (Figures & Tables)
+•	Example: "Hydrological model performance results represented in Table 3."
+
+6.	"applies to" → (Discussion) applies to (Geographical Context)
+•	Example: "Findings on LID effectiveness apply to Houston, TX."
+
+7.	"cites" → (Academic Paper) cites (Academic Paper)
+•	Example: "Paper A cites Paper B on groundwater modeling techniques."
+
+8.	"supports" → (Findings) supports (Findings)
+•	Example: "This study's results support prior work on sediment transport modeling."
+
+9.	"contradicts" → (Findings) contradicts (Findings)
+•	Example: "This study contradicts previous assumptions about drought frequency."
+
+10.	"builds on" → (Research Problem) builds on (Previous Research Gaps)
+•	Example: "This research builds on identified gaps in streamflow modeling."
+
+11.	"used in" → (Computational Tools) used in (Methodology)
+•	Example: "Python was used in model calibration with Bayesian inference."
+
+12.	"derived from" → (Quantitative Findings) derived from (Dataset Sources)
+•	Example: "Streamflow prediction accuracy derived from satellite precipitation data."
+
+13.	"validated by" → (Simulation Models) validated by (Validation Data)
+•	Example: "The model was validated using historical streamflow records."
+
+14.	"analyzed using" → (Findings) analyzed using (Statistical Methods)
+•	Example: "Flood return periods analyzed using extreme value theory."
+
+15.	"related to" → (Hydrological Theories) related to (Previous Models Referenced)
+•	Example: "The water balance equation is related to the SWAT model."
+
+16.	"calibrated using" → (Simulation Models) calibrated using (Validation & Calibration)
+•	Example: "The groundwater flow model was calibrated using NSE and RMSE."
+
+17.	"assesses" → (Statistical Methods) assesses (Findings)
+•	Example: "Machine learning classification assesses flood susceptibility."
+
+18.	"describes" → (Figures & Tables) describes (Key Hydrological Variables)
+•	Example: "Table 2 describes streamflow variability over 30 years."
+
+19.	"used for" → (Dataset Sources) used for (Research Problem)
+•	Example: "Remote sensing datasets used for drought prediction research."
+
+20.	"relevant to" → (Geographical Context) relevant to (Study Area)
+•	Example: "Groundwater depletion models relevant to the Ogallala Aquifer."
+
+21.	"has component" → (Academic Paper) has_component (Any Element)
+•	Example: "Paper A has component Research Question B"
+

@@ -1,0 +1,40 @@
+{
+    "Research Problem": "Extract the central research problem of this paper in one sentence. Ensure the response is concise and directly summarizes the main issue addressed, including any numerical values if applicable. Do not include background information or research objectives.",
+    
+    "Research Topic": "Identify the broad hydrological topic of this paper (e.g., flood modeling, drought prediction, water quality assessment, storm surge impact). Provide only the category name.",
+    
+    "Study Area": "Extract the geographical focus of the study. If multiple locations are studied, list them explicitly. Include specific watershed names, cities, or coordinates if mentioned.",
+    
+    "Scientific & Operational Relevance": "Summarize the scientific and operational relevance of the study. Provide two separate sentences: one for academic contributions and one for real-world applications. If hydrological models (e.g., HEC-RAS, SWAT) were used, mention them.",
+    
+    "Previous Research Gaps": "Identify the specific research gaps that this study aims to address. Avoid general background information. If previous studies are referenced as having gaps, include their main shortcomings.",
+    
+    "Main Hypothesis": "Extract the primary hypothesis tested in this study. If no explicit hypothesis is stated, summarize the main assumption of the research. Ensure the response includes specific measurable expectations if mentioned.",
+    
+    "Research Questions": "Check if the paper explicitly states research questions. If research questions are explicitly mentioned, extract them as a numbered list. If no research questions are explicitly stated, analyze the study’s objectives and infer only those that clearly align with the paper's focus. Do not introduce unrelated or speculative questions. Provide the response in the following format:\n\n✅ **Good example (when questions are stated explicitly):**\n1. How do changes in precipitation patterns influence urban flooding?\n2. What are the limitations of current flood forecasting models in highly urbanized regions?\n\n✅ **Good example (when questions are not explicitly stated but can be inferred based on the study's objectives):**\n- If the study evaluates the effectiveness of a flood control method but does not state research questions explicitly, an appropriate inferred question could be:\n  1. How does [method] affect [variable] in [study area]?\n\n❌ **Bad example (when questions are completely invented or speculative):**\n- If the paper discusses flood modeling techniques and the extracted question is:\n  1. How can AI replace traditional hydrological models? (This was not discussed in the paper.)",
+    
+    "Dataset Sources": "Identify the primary data sources used in the study (e.g., remote sensing, USGS streamflow records, NOAA climate data, field observations). Specify if the data are from observational, modeled, or simulated sources.",
+    
+    "Key Hydrological Variables": "List the key hydrological variables analyzed in this study, such as precipitation, streamflow, runoff coefficient, groundwater level, or water quality indicators. Always specify the units of measurement explicitly when available.",
+
+    "Spatial & Temporal Resolution": "Extract details on the spatial and temporal resolution of the data used in the study. Specify if the data are collected at daily, monthly, or annual scales and mention the spatial coverage (e.g., basin, watershed, regional, national).",
+    
+    "Simulation Models & Computational Tools": "Identify the simulation models and computational tools used in this study (e.g., SWAT, VIC, NWM, ADCIRC, Python, MATLAB). Mention any significant modifications to standard models if applicable.",
+    
+    "Modeling & Analytical Methods": "Extract the modeling and analytical methods explicitly mentioned in the paper. Include physical models (e.g., hydrological models based on physical equations), conceptual models, and machine learning or deep learning approaches (e.g., LSTM, CNNs, Random Forest). Include conceptual models, physical equations, and machine learning or deep learning approaches. Do not limit the response to the examples provided; list any methods found in the paper. If no methods are described, respond: 'No modeling or analytical methods were explicitly mentioned in this paper.' Do not infer any methods not stated.",
+    
+    "Statistical Methods": "List the statistical methods explicitly mentioned in this study (e.g., regression analysis, Bayesian inference, sensitivity analysis). If statistical significance values are mentioned, include them. If no statistical methods are described, respond: 'No statistical methods were explicitly mentioned in this paper.' Do not infer any methods that are not stated.",
+    
+    "Validation & Calibration": "Describe how the study validates and calibrates its models. If specific performance metrics (e.g., NSE, RMSE, KGE, correlation coefficients) are mentioned, include them. If validation is discussed but no explicit metrics are provided, summarize the approach used (e.g., comparison with observed data, sensitivity tests, etc.).",
+    
+    "Key Findings": "Summarize the main results of the study, ensuring that numerical values and comparisons between methodologies are included. If specific hydrological changes are reported (e.g., reduction in floodplain area by X%), include them explicitly. Do not include general trends or patterns; only report concrete, quantifiable findings.",
+    
+    "Identified Patterns": "Describe any significant trends or patterns observed in the data. Ensure that this response focuses on recurring behaviors, correlations, or overarching insights rather than individual findings. Patterns should highlight relationships between variables and be distinct from specific numerical results.",
+    
+    "Comparison with Previous Studies": "Explain how the study’s results compare with previous research. Highlight agreements, contradictions, or novel contributions.",
+    
+    "Uncertainty & Limitations": "Summarize the main sources of uncertainty and limitations of the study. Ensure specific numerical values are included if error margins or discrepancies are reported in the paper.",
+    
+    "Figures & Tables": "List the key figures and tables referenced in the study, along with a brief summary of their content. If figures contain critical quantitative comparisons, summarize the findings."
+}
+
